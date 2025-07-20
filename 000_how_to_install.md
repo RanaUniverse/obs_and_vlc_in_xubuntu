@@ -8,8 +8,11 @@ This is the place to install OBS Studio from the APT offline, first i did downlo
 For A Fresh Linux Machine, below command is i need to run.
 ```
 sudo apt-get install --print-uris --yes obs-studio | grep ^\' | cut -d\' -f2 > obs-packages.txt
+
 mkdir dependencies_for_obs
+
 cd dependencies_for_obs
+
 wget -i ../obs-packages.txt
 ```
 
