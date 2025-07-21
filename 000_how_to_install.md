@@ -1,6 +1,6 @@
+Done in Xubuntu 24.04.2 OS.
 
-
-This is not only OBS But Also VLC Player (OBS: 30.0.2.1-3build1 (64 bit); VLC:3.0.20 Vetenari)
+This is not only OBS But Also VLC Player.
 
 
 This is the place to install OBS Studio from the APT offline, first i did download the dependencies in my folder by this process below:
@@ -16,7 +16,7 @@ cd dependencies_for_obs
 wget -i ../obs-packages.txt
 ```
 
-4 June 2025
+21 July 2025
 
 For any discussion message me.
 
